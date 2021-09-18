@@ -23,7 +23,7 @@ public class ProductController {
     public Product findById(@PathVariable Long id) {
         Product product = productService.findById(id);
         //设置端口
-        product.setProduct_desc("调用shop-service-product服务,ip:" + ip + ",服务提供者端口:" + port);
+        product.setProduct_name("调用shop-service-product服务,ip:" + ip + ",服务提供者端口:" + port);
         return product;
     }
 
