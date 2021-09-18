@@ -1,0 +1,5 @@
+# 项目排除路径
+/eureka-server/target/
+/import-test/target/
+/order-service/target/
+/product-service/target/
